@@ -160,15 +160,6 @@ diff check.
   conventions and with similarly-named skills from other sources (e.g.
   `superpowers:systematic-debugging`).
 
-### How the director pack fits together (when it's used)
-
-Each director maintains living documents scaled to the work (`Plan.md` + `agent_notes.md` for a
-single session; add `DecisionLog.md` for multi-session; function-inventory and archive files for
-a multi-week port). Role skills are project-agnostic: the director tells any worker which files
-are plan doc and notes doc. Orient from the repo (never a stale summary). Verify with Xcode MCP
-or `xcodebuild` before claiming done — a child "success" is not evidence. An entry that only
-exists in chat is invisible to the next session.
-
 ### Marketplace (Claude + Grok)
 
 This repo is a self-hosting marketplace: `.claude-plugin/marketplace.json` lists one plugin at
@@ -176,7 +167,7 @@ This repo is a self-hosting marketplace: `.claude-plugin/marketplace.json` lists
 under `skills/` so the plugin loader finds them. Grok accepts the `.claude-plugin/` layout; there
 is no separate `.grok-plugin/` copy.
 
-Gemini and `agy` have no common marketplace with Claude/Grok. They keep using
+Gemini `agy` have no common marketplace with Claude/Grok. They keep using
 `./scripts/refresh-team.sh`.
 
 If you want to pull in more skills from an external collection like
