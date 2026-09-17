@@ -1,0 +1,13 @@
+{
+  "name": "multi-agentic-project-team",
+  "description": "Director + role skills for Swift/Xcode projects: greenfield, brownfield, and C/C++-to-Swift ports.",
+  "version": "1.0.0",
+  "keywords": [
+    "xcode",
+    "swift",
+    "ios",
+    "macos",
+    "porting",
+    "director"
+  ]
+}

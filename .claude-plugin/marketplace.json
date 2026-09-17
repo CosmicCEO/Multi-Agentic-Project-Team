@@ -1,0 +1,27 @@
+{
+  "name": "multi-agentic-project-team",
+  "owner": {
+    "name": "Multi-Agentic Project Team"
+  },
+  "metadata": {
+    "description": "Director + role skills for Swift/Xcode projects (greenfield, brownfield, and C/C++ ports)",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "multi-agentic-project-team",
+      "source": "./",
+      "description": "Swift/Xcode director agents and role skills: swift-project-director, swift-port-director, shared director-operating-model router, Admin, Implementer, Quality Auditor, plus Network.framework notes and working-practice skills.",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": [
+        "xcode",
+        "swift",
+        "ios",
+        "macos",
+        "porting",
+        "director"
+      ]
+    }
+  ]
+}
